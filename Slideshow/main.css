@@ -1,0 +1,88 @@
+  <style type="text/css">
+   img{
+      background-size: contain;
+         width: auto;
+      height: auto;
+      max-width: 500px;
+      max-height: 500px;
+      display: flex;
+   }
+   button{
+      background: center;
+      font-family: arial;
+      background-position: right;
+   }
+
+   body{
+      margin:0 auto;
+      background-color: lightblue;
+      background: url no-repeat;
+      background-size: 100%;
+      font-family: helvetica;
+   }
+   ul li{
+      display: inline;
+      list-style: none;
+   }
+   ul{
+      background: skyblue;
+      text-align: center;
+      word-spacing: 30px;
+      font-size: 30px;
+   }
+   li a{
+      display: inline-block;
+      color: beige;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      word-spacing: 2px;
+   }
+   li a:hover, .dropdown:hover{
+      background-color: white;
+   }
+   footer{
+      background: none;
+      text-align: center;
+      word-spacing: 30px;
+      font-size: 20px;
+      background-position: bottom; 
+      color: white;
+      margin: 120px;
+      padding: 450px;
+      word-spacing: 5px;
+    }  
+    h1{
+      margin-left: 50px;
+      color: orange;
+    }
+   .dropdown{
+    display: inline-block;
+   }
+   .content{
+      display: none;
+      position: absolute;
+      background-color: lightyellow ;
+      min-width: 160px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+   }
+   .content a{
+      color: black;
+      padding: 20px 16px;
+      text-decoration: block;
+      display: block;
+      text-align: 5px;
+   }
+   .content a:hover{
+      background-color: skyblue ;
+   }
+   .dropdown:hover .content{
+      display:block;
+   }
+   #navigation{
+    font-size: 25px;
+    text-align: left;
+    word-spacing: 70px;
+   }
+
+</style>
